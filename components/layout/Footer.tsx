@@ -101,16 +101,16 @@ export default function Footer() {
                 Greenspeed B.V.
               </p>
               <p className="text-white/70 font-dm text-sm">
-                Keizersgracht 123
+                Utrechtseweg 26-42
                 <br />
-                1015 CJ Amsterdam
+                1213 TT Hilversum
               </p>
               <p className="text-white/70 font-dm text-sm">
                 <a
-                  href="tel:+31201234567"
+                  href="tel:+31356228975"
                   className="hover:text-white transition-colors"
                 >
-                  020 – 123 45 67
+                  035 – 622 89 75
                 </a>
               </p>
               <p className="text-white/70 font-dm text-sm">

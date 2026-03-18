@@ -14,8 +14,8 @@ const contactInfo = [
   {
     icon: <Phone className="w-5 h-5" />,
     label: "Telefoon",
-    value: "020 – 123 45 67",
-    href: "tel:+31201234567",
+    value: "035 – 622 89 75",
+    href: "tel:+31356228975",
   },
   {
     icon: <Mail className="w-5 h-5" />,
@@ -26,8 +26,8 @@ const contactInfo = [
   {
     icon: <MapPin className="w-5 h-5" />,
     label: "Adres",
-    value: "Keizersgracht 123, 1015 CJ Amsterdam",
-    href: "https://maps.google.com",
+    value: "Utrechtseweg 26-42, 1213 TT Hilversum",
+    href: "https://maps.google.com/?q=Utrechtseweg+26-42,+1213+TT+Hilversum",
   },
   {
     icon: <Clock className="w-5 h-5" />,
