@@ -28,7 +28,7 @@ export default function KlantcasesPage() {
         <div className="container-wide">
           <SectionWrapper>
             <div className="text-center mb-12">
-              <span className="inline-block text-green-600 font-dm font-semibold text-sm uppercase tracking-widest mb-4">
+              <span className="inline-block text-gs-teal font-dm font-semibold text-sm uppercase tracking-widest mb-4">
                 Klantcases
               </span>
               <h2 className="font-syne font-bold text-3xl sm:text-4xl text-gray-900">
@@ -58,7 +58,7 @@ export default function KlantcasesPage() {
                       unoptimized
                     />
                     <div className="absolute top-3 left-3">
-                      <span className="bg-white rounded-full px-3 py-1 text-xs font-dm font-semibold text-green-700">
+                      <span className="bg-white rounded-full px-3 py-1 text-xs font-dm font-semibold text-gs-teal">
                         {kc.stad}
                       </span>
                     </div>
@@ -76,7 +76,7 @@ export default function KlantcasesPage() {
                       {kc.resultaten.slice(0, 2).map((res, j) => (
                         <span
                           key={j}
-                          className="bg-green-50 text-green-700 text-xs font-dm font-medium px-3 py-1 rounded-full"
+                          className="bg-gs-teal-light text-gs-teal text-xs font-dm font-medium px-3 py-1 rounded-full"
                         >
                           {res}
                         </span>
@@ -100,7 +100,7 @@ export default function KlantcasesPage() {
                           <p className="text-gray-400 font-dm text-xs">{kc.functie}</p>
                         </div>
                       </div>
-                      <ArrowRight className="w-5 h-5 text-green-600 group-hover:translate-x-1 transition-transform" />
+                      <ArrowRight className="w-5 h-5 text-gs-teal group-hover:translate-x-1 transition-transform" />
                     </div>
                   </div>
                 </Link>
@@ -111,7 +111,7 @@ export default function KlantcasesPage() {
       </section>
 
       {/* CTA */}
-      <section className="section bg-green-50">
+      <section className="section bg-gs-teal-light">
         <div className="container-narrow text-center">
           <SectionWrapper>
             <h2 className="font-syne font-bold text-3xl sm:text-4xl text-gray-900 mb-6">

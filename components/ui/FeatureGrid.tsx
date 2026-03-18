@@ -56,7 +56,7 @@ interface FeatureGridProps {
 export default function FeatureGrid({
   features,
   columns = 3,
-  iconBg = "bg-green-100 text-green-600",
+  iconBg = "bg-gs-teal-light text-gs-teal",
 }: FeatureGridProps) {
   const colClass =
     columns === 2

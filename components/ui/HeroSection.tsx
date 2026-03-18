@@ -29,10 +29,10 @@ export default function HeroSection({
   dark = false,
 }: HeroSectionProps) {
   const bgClass = dark
-    ? "bg-green-900 text-white"
+    ? "bg-gs-navy text-white"
     : imageSrc
     ? "text-white"
-    : "bg-green-50 text-gray-900";
+    : "bg-gs-teal-light text-gray-900";
 
   return (
     <section
@@ -49,7 +49,7 @@ export default function HeroSection({
             unoptimized
           />
           {overlay && (
-            <div className="absolute inset-0 bg-green-900/70" />
+            <div className="absolute inset-0 bg-gs-navy/70" />
           )}
         </>
       )}
@@ -62,7 +62,7 @@ export default function HeroSection({
         <h1
           className={`font-syne font-bold text-4xl sm:text-5xl lg:text-6xl leading-tight mb-6 max-w-3xl ${
             centered ? "mx-auto" : ""
-          } ${!imageSrc && !dark ? "text-green-900" : "text-white"}`}
+          } ${!imageSrc && !dark ? "text-gs-navy" : "text-white"}`}
         >
           {headline}
         </h1>
@@ -71,7 +71,7 @@ export default function HeroSection({
           <p
             className={`text-lg sm:text-xl mb-8 max-w-2xl leading-relaxed ${
               centered ? "mx-auto" : ""
-            } ${!imageSrc && !dark ? "text-gray-600" : "text-green-100"}`}
+            } ${!imageSrc && !dark ? "text-gray-600" : "text-white/80"}`}
           >
             {subheadline}
           </p>
@@ -97,7 +97,7 @@ export default function HeroSection({
                 size="lg"
                 className={
                   imageSrc || dark
-                    ? "border-white text-white hover:bg-white hover:text-green-600"
+                    ? "border-white text-white hover:bg-white hover:text-gs-teal"
                     : ""
                 }
               >

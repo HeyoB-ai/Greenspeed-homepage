@@ -43,7 +43,7 @@ export default function KlantcaseDetailPage({ params }: PageProps) {
           priority
           unoptimized
         />
-        <div className="absolute inset-0 bg-green-900/60" />
+        <div className="absolute inset-0 bg-gs-navy/60" />
         <div className="absolute inset-0 flex items-end">
           <div className="max-w-4xl mx-auto w-full px-4 sm:px-6 lg:px-8 pb-10">
             <span className="inline-block bg-white/20 backdrop-blur-sm text-white text-sm font-dm px-3 py-1 rounded-full mb-3">
@@ -72,7 +72,7 @@ export default function KlantcaseDetailPage({ params }: PageProps) {
             <div className="lg:col-span-2 space-y-10">
               {/* Quote */}
               <SectionWrapper>
-                <blockquote className="border-l-4 border-green-500 pl-6">
+                <blockquote className="border-l-4 border-gs-teal pl-6">
                   <p className="font-dm text-xl text-gray-700 italic leading-relaxed mb-4">
                     &ldquo;{kc.quote}&rdquo;
                   </p>
@@ -135,19 +135,19 @@ export default function KlantcaseDetailPage({ params }: PageProps) {
             {/* Sidebar */}
             <div className="lg:col-span-1">
               <SectionWrapper delay={0.2}>
-                <div className="bg-green-50 rounded-2xl p-6 sticky top-24">
+                <div className="bg-gs-teal-light rounded-2xl p-6 sticky top-24">
                   <h3 className="font-syne font-bold text-lg text-gray-900 mb-4">
                     Resultaten op een rij
                   </h3>
                   <ul className="space-y-3 mb-6">
                     {kc.resultaten.map((res, i) => (
                       <li key={i} className="flex items-start gap-3">
-                        <Check className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                        <Check className="w-5 h-5 text-gs-teal flex-shrink-0 mt-0.5" />
                         <span className="font-dm text-gray-700 text-sm">{res}</span>
                       </li>
                     ))}
                   </ul>
-                  <div className="border-t border-green-200 pt-6">
+                  <div className="border-t border-gs-teal-light pt-6">
                     <p className="font-dm text-gray-500 text-sm mb-4">
                       Wilt u ook zulke resultaten?
                     </p>

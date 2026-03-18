@@ -27,28 +27,13 @@ export default function Header() {
           {/* Logo */}
           <Link
             href="/"
-            className="flex items-center gap-2 group"
             onClick={() => setMobileOpen(false)}
           >
-            <div className="w-9 h-9 bg-green-600 rounded-lg flex items-center justify-center">
-              <svg
-                viewBox="0 0 24 24"
-                fill="none"
-                className="w-5 h-5 text-white"
-                stroke="currentColor"
-                strokeWidth={2.5}
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"
-                />
-                <circle cx="12" cy="9" r="2.5" />
-              </svg>
-            </div>
-            <span className="font-syne font-bold text-xl text-green-700 group-hover:text-green-600 transition-colors">
-              Greenspeed
-            </span>
+            <img
+              src="/images/logo.svg"
+              alt="Greenspeed"
+              className="h-10 w-auto"
+            />
           </Link>
 
           {/* Desktop nav */}
@@ -57,7 +42,7 @@ export default function Header() {
               <Link
                 key={item.href}
                 href={item.href}
-                className="px-4 py-2 rounded-lg text-gray-600 hover:text-green-600 hover:bg-green-50 font-dm font-medium text-sm transition-colors"
+                className="px-4 py-2 rounded-lg text-gray-600 hover:text-gs-teal hover:bg-gs-teal-light font-dm font-medium text-sm transition-colors"
               >
                 {item.label}
               </Link>
@@ -74,7 +59,7 @@ export default function Header() {
           {/* Mobile hamburger */}
           <button
             onClick={() => setMobileOpen(!mobileOpen)}
-            className="lg:hidden p-2 rounded-lg text-gray-600 hover:text-green-600 hover:bg-green-50 transition-colors"
+            className="lg:hidden p-2 rounded-lg text-gray-600 hover:text-gs-teal hover:bg-gs-teal-light transition-colors"
             aria-label="Menu openen"
           >
             {mobileOpen ? (
@@ -98,7 +83,7 @@ export default function Header() {
               key={item.href}
               href={item.href}
               onClick={() => setMobileOpen(false)}
-              className="block px-4 py-3 rounded-lg text-gray-600 hover:text-green-600 hover:bg-green-50 font-dm font-medium transition-colors"
+              className="block px-4 py-3 rounded-lg text-gray-600 hover:text-gs-teal hover:bg-gs-teal-light font-dm font-medium transition-colors"
             >
               {item.label}
             </Link>

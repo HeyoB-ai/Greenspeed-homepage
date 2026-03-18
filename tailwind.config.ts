@@ -9,19 +9,28 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
+        'gs-teal': {
+          DEFAULT: '#3ab4a0',
+          dark: '#2a8a7a',
+          light: '#d0f0ec',
+        },
+        'gs-navy': {
+          DEFAULT: '#191933',
+          light: '#2d2d5e',
+        },
         green: {
           50: "#f0faf4",
           100: "#dcf3e5",
           200: "#bce8cd",
           300: "#8dd5ac",
           400: "#57bc83",
-          500: "#33a060",
-          600: "#1A7A3C",
-          700: "#166633",
-          800: "#14512a",
-          900: "#114324",
-          950: "#082515",
-          DEFAULT: "#1A7A3C",
+          500: "#3ab4a0",
+          600: "#3ab4a0",
+          700: "#2a8a7a",
+          800: "#1e6b5e",
+          900: "#14473f",
+          950: "#0a2621",
+          DEFAULT: "#3ab4a0",
         },
         gray: {
           50: "#f9fafb",

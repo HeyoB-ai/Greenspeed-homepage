@@ -24,7 +24,7 @@ export default function VacaturesPage() {
         ctaHref="#vacatures"
         secondaryCtaLabel="Solliciteer direct"
         secondaryCtaHref="#solliciteer"
-        imageSrc="https://placehold.co/1600x700/1A7A3C/white?text=Word+koerier+bij+Greenspeed"
+        imageSrc="https://placehold.co/1600x700/3ab4a0/white?text=Word+koerier+bij+Greenspeed"
         imageAlt="Greenspeed fietskoeriers"
       />
 
@@ -33,7 +33,7 @@ export default function VacaturesPage() {
         <div className="container-wide">
           <SectionWrapper>
             <div className="text-center mb-12">
-              <span className="inline-block text-green-600 font-dm font-semibold text-sm uppercase tracking-widest mb-4">
+              <span className="inline-block text-gs-teal font-dm font-semibold text-sm uppercase tracking-widest mb-4">
                 Waarom Greenspeed?
               </span>
               <h2 className="font-syne font-bold text-3xl sm:text-4xl text-gray-900">
@@ -50,7 +50,7 @@ export default function VacaturesPage() {
         <div className="container-wide">
           <SectionWrapper>
             <div className="text-center mb-12">
-              <span className="inline-block text-green-600 font-dm font-semibold text-sm uppercase tracking-widest mb-4">
+              <span className="inline-block text-gs-teal font-dm font-semibold text-sm uppercase tracking-widest mb-4">
                 Openstaande vacatures
               </span>
               <h2 className="font-syne font-bold text-3xl sm:text-4xl text-gray-900">
@@ -80,17 +80,17 @@ export default function VacaturesPage() {
       </section>
 
       {/* Application form */}
-      <section id="solliciteer" className="section bg-green-900 scroll-mt-20">
+      <section id="solliciteer" className="section bg-gs-navy scroll-mt-20">
         <div className="container-wide">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
             <SectionWrapper>
-              <span className="inline-block text-green-300 font-dm font-semibold text-sm uppercase tracking-widest mb-4">
+              <span className="inline-block text-gs-teal font-dm font-semibold text-sm uppercase tracking-widest mb-4">
                 Solliciteren
               </span>
               <h2 className="font-syne font-bold text-3xl sm:text-4xl text-white mb-6">
                 Interesse? Solliciteer direct
               </h2>
-              <p className="text-green-200 font-dm text-lg leading-relaxed mb-6">
+              <p className="text-white/70 font-dm text-lg leading-relaxed mb-6">
                 Vul het formulier in en geef aan voor welke stad u solliciteert. We nemen
                 binnen 2 werkdagen contact met u op voor een eerste kennismakingsgesprek.
               </p>
@@ -101,8 +101,8 @@ export default function VacaturesPage() {
                   "Werken in een betekenisvolle sector",
                   "Gezellig team en goede begeleiding",
                 ].map((item, i) => (
-                  <div key={i} className="flex items-center gap-3 text-green-100 font-dm text-sm">
-                    <span className="w-4 h-4 rounded-full bg-green-400 text-white flex items-center justify-center text-xs flex-shrink-0">
+                  <div key={i} className="flex items-center gap-3 text-white/80 font-dm text-sm">
+                    <span className="w-4 h-4 rounded-full bg-gs-teal text-white flex items-center justify-center text-xs flex-shrink-0">
                       ✓
                     </span>
                     {item}

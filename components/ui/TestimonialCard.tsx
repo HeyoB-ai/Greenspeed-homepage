@@ -20,7 +20,7 @@ export default function TestimonialCard({
   if (variant === "large") {
     return (
       <div className="bg-white rounded-3xl shadow-xl p-8 md:p-12 max-w-3xl mx-auto">
-        <div className="text-green-500 text-6xl font-syne leading-none mb-6">&ldquo;</div>
+        <div className="text-gs-teal text-6xl font-syne leading-none mb-6">&ldquo;</div>
         <p className="text-gray-700 text-xl md:text-2xl font-dm leading-relaxed italic mb-8">
           {quote}
         </p>
@@ -48,7 +48,7 @@ export default function TestimonialCard({
 
   return (
     <div className="bg-white rounded-2xl shadow-md p-6 border border-gray-100 hover:shadow-lg transition-shadow">
-      <div className="text-green-500 text-4xl font-syne leading-none mb-3">&ldquo;</div>
+      <div className="text-gs-teal text-4xl font-syne leading-none mb-3">&ldquo;</div>
       <p className="text-gray-600 font-dm leading-relaxed italic mb-6">{quote}</p>
       <div className="flex items-center gap-3">
         {foto && (

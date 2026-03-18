@@ -50,7 +50,7 @@ export default function OverOnsPage() {
         ctaHref="/contact"
         secondaryCtaLabel="Bekijk vacatures"
         secondaryCtaHref="/vacatures"
-        imageSrc="https://placehold.co/1600x700/1A7A3C/white?text=Team+Greenspeed"
+        imageSrc="https://placehold.co/1600x700/3ab4a0/white?text=Team+Greenspeed"
         imageAlt="Het Greenspeed team"
       />
 
@@ -59,7 +59,7 @@ export default function OverOnsPage() {
         <div className="container-narrow">
           <SectionWrapper>
             <div className="text-center mb-12">
-              <span className="inline-block text-green-600 font-dm font-semibold text-sm uppercase tracking-widest mb-4">
+              <span className="inline-block text-gs-teal font-dm font-semibold text-sm uppercase tracking-widest mb-4">
                 Onze missie
               </span>
               <h2 className="font-syne font-bold text-3xl sm:text-4xl text-gray-900 mb-6">
@@ -76,7 +76,7 @@ export default function OverOnsPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {coreValues.map((value, i) => (
               <SectionWrapper key={i} delay={i * 0.1}>
-                <div className="bg-green-50 rounded-2xl p-6 flex gap-4">
+                <div className="bg-gs-teal-light rounded-2xl p-6 flex gap-4">
                   <span className="text-3xl flex-shrink-0">{value.icoon}</span>
                   <div>
                     <h3 className="font-syne font-bold text-gray-900 mb-2">{value.titel}</h3>
@@ -96,7 +96,7 @@ export default function OverOnsPage() {
         <div className="container-wide">
           <SectionWrapper>
             <div className="text-center mb-12">
-              <span className="inline-block text-green-600 font-dm font-semibold text-sm uppercase tracking-widest mb-4">
+              <span className="inline-block text-gs-teal font-dm font-semibold text-sm uppercase tracking-widest mb-4">
                 Expertises
               </span>
               <h2 className="font-syne font-bold text-3xl sm:text-4xl text-gray-900">
@@ -116,7 +116,7 @@ export default function OverOnsPage() {
         <div className="container-narrow">
           <SectionWrapper>
             <div className="text-center mb-10">
-              <span className="inline-block text-green-600 font-dm font-semibold text-sm uppercase tracking-widest mb-4">
+              <span className="inline-block text-gs-teal font-dm font-semibold text-sm uppercase tracking-widest mb-4">
                 Lokale betrokkenheid
               </span>
               <h2 className="font-syne font-bold text-3xl sm:text-4xl text-gray-900 mb-6">
@@ -133,17 +133,17 @@ export default function OverOnsPage() {
       </section>
 
       {/* Grip op kosten */}
-      <section className="section bg-green-900 text-white">
+      <section className="section bg-gs-navy text-white">
         <div className="container-narrow">
           <SectionWrapper>
             <div className="text-center mb-10">
-              <span className="inline-block text-green-300 font-dm font-semibold text-sm uppercase tracking-widest mb-4">
+              <span className="inline-block text-gs-teal font-dm font-semibold text-sm uppercase tracking-widest mb-4">
                 Financieel
               </span>
               <h2 className="font-syne font-bold text-3xl sm:text-4xl text-white mb-6">
                 Grip op uw bezorgkosten
               </h2>
-              <p className="text-green-200 font-dm text-lg leading-relaxed">
+              <p className="text-white/70 font-dm text-lg leading-relaxed">
                 Vaste of variabele tarieven? Bij Greenspeed kiest u zelf. Onze transparante
                 prijsstructuur geeft u altijd volledige controle over uw bezorgbudget, zonder
                 onverwachte meerkosten.
@@ -156,8 +156,8 @@ export default function OverOnsPage() {
                 { cijfer: "100%", label: "transparante facturatie" },
               ].map((stat, i) => (
                 <div key={i} className="text-center bg-white/10 rounded-2xl p-6">
-                  <p className="font-syne font-bold text-4xl text-green-300 mb-1">{stat.cijfer}</p>
-                  <p className="font-dm text-green-200 text-sm">{stat.label}</p>
+                  <p className="font-syne font-bold text-4xl text-gs-teal mb-1">{stat.cijfer}</p>
+                  <p className="font-dm text-white/70 text-sm">{stat.label}</p>
                 </div>
               ))}
             </div>
@@ -171,7 +171,7 @@ export default function OverOnsPage() {
           <SectionWrapper>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
               <div>
-                <span className="inline-block text-green-600 font-dm font-semibold text-sm uppercase tracking-widest mb-4">
+                <span className="inline-block text-gs-teal font-dm font-semibold text-sm uppercase tracking-widest mb-4">
                   Dashboard
                 </span>
                 <h2 className="font-syne font-bold text-3xl sm:text-4xl text-gray-900 mb-4">
@@ -186,7 +186,7 @@ export default function OverOnsPage() {
                   <ArrowRight className="w-4 h-4" />
                 </Button>
               </div>
-              <div className="bg-green-50 rounded-2xl p-6">
+              <div className="bg-gs-teal-light rounded-2xl p-6">
                 <ul className="space-y-4">
                   {[
                     "Live tracking per bezorging",
@@ -196,7 +196,7 @@ export default function OverOnsPage() {
                     "Directe koppeling met uw AIS",
                   ].map((item, i) => (
                     <li key={i} className="flex items-center gap-3 text-gray-700 font-dm">
-                      <span className="w-5 h-5 rounded-full bg-green-600 text-white flex items-center justify-center text-xs flex-shrink-0">
+                      <span className="w-5 h-5 rounded-full bg-gs-teal text-white flex items-center justify-center text-xs flex-shrink-0">
                         ✓
                       </span>
                       {item}
@@ -214,7 +214,7 @@ export default function OverOnsPage() {
         <div className="container-narrow">
           <SectionWrapper>
             <div className="text-center">
-              <span className="inline-block text-green-600 font-dm font-semibold text-sm uppercase tracking-widest mb-4">
+              <span className="inline-block text-gs-teal font-dm font-semibold text-sm uppercase tracking-widest mb-4">
                 Continuïteit
               </span>
               <h2 className="font-syne font-bold text-3xl sm:text-4xl text-gray-900 mb-6">
@@ -233,11 +233,11 @@ export default function OverOnsPage() {
       <section className="section bg-white">
         <div className="container-narrow">
           <SectionWrapper>
-            <div className="bg-green-600 rounded-3xl p-8 md:p-12 text-center text-white">
+            <div className="bg-gs-teal rounded-3xl p-8 md:p-12 text-center text-white">
               <h2 className="font-syne font-bold text-3xl sm:text-4xl mb-6">
                 Bekende gezichten bij uw patiënten
               </h2>
-              <p className="font-dm text-green-100 text-lg leading-relaxed mb-8 max-w-2xl mx-auto">
+              <p className="font-dm text-white/80 text-lg leading-relaxed mb-8 max-w-2xl mx-auto">
                 Onze koeriers worden toegewezen aan vaste wijken. Patiënten zien steeds dezelfde
                 vertrouwde gezichten aan de deur. Dat geeft rust, vertrouwen en een gevoel van
                 persoonlijke zorg — zeker voor kwetsbare mensen.

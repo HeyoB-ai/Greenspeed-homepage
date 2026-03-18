@@ -24,7 +24,7 @@ export default function VacatureCard({
         <h3 className="font-syne font-bold text-xl text-gray-900">
           Fietskoerier {stad}
         </h3>
-        <span className="bg-green-100 text-green-700 text-xs font-semibold px-3 py-1 rounded-full whitespace-nowrap">
+        <span className="bg-gs-teal-light text-gs-teal text-xs font-semibold px-3 py-1 rounded-full whitespace-nowrap">
           Beschikbaar
         </span>
       </div>
@@ -33,21 +33,21 @@ export default function VacatureCard({
 
       <div className="flex flex-wrap gap-3 text-sm">
         <div className="flex items-center gap-1.5 text-gray-600">
-          <MapPin className="w-4 h-4 text-green-600" />
+          <MapPin className="w-4 h-4 text-gs-teal" />
           <span>{stad}</span>
         </div>
         <div className="flex items-center gap-1.5 text-gray-600">
-          <Clock className="w-4 h-4 text-green-600" />
+          <Clock className="w-4 h-4 text-gs-teal" />
           <span>{uren}</span>
         </div>
         <div className="flex items-center gap-1.5 text-gray-600">
-          <Euro className="w-4 h-4 text-green-600" />
+          <Euro className="w-4 h-4 text-gs-teal" />
           <span>{salaris}</span>
         </div>
       </div>
 
       {extra && (
-        <p className="text-xs text-green-700 font-medium bg-green-50 px-3 py-2 rounded-lg">
+        <p className="text-xs text-gs-teal font-medium bg-gs-teal-light px-3 py-2 rounded-lg">
           + {extra}
         </p>
       )}

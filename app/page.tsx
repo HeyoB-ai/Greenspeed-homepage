@@ -23,7 +23,7 @@ export default function HomePage() {
         ctaHref="/contact"
         secondaryCtaLabel="Hoe het werkt"
         secondaryCtaHref="/overstappen"
-        imageSrc="https://placehold.co/1600x800/1A7A3C/white?text=Greenspeed+fietskoerier"
+        imageSrc="https://placehold.co/1600x800/3ab4a0/white?text=Greenspeed+fietskoerier"
         imageAlt="Greenspeed fietskoerier bezorgt medicijnen"
       />
 
@@ -32,7 +32,7 @@ export default function HomePage() {
         <div className="container-wide">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <SectionWrapper>
-              <span className="inline-block text-green-600 font-dm font-semibold text-sm uppercase tracking-widest mb-4">
+              <span className="inline-block text-gs-teal font-dm font-semibold text-sm uppercase tracking-widest mb-4">
                 Over Greenspeed
               </span>
               <h2 className="font-syne font-bold text-3xl sm:text-4xl text-gray-900 mb-6">
@@ -51,7 +51,7 @@ export default function HomePage() {
                   "Vaste, vertrouwde koeriers per wijk",
                 ].map((item, i) => (
                   <li key={i} className="flex items-start gap-3 text-gray-600 font-dm">
-                    <span className="w-5 h-5 rounded-full bg-green-100 text-green-600 flex items-center justify-center flex-shrink-0 mt-0.5">
+                    <span className="w-5 h-5 rounded-full bg-gs-teal-light text-gs-teal flex items-center justify-center flex-shrink-0 mt-0.5">
                       ✓
                     </span>
                     {item}
@@ -68,7 +68,7 @@ export default function HomePage() {
               <div className="space-y-6">
                 <div className="relative rounded-2xl overflow-hidden shadow-xl">
                   <Image
-                    src="https://placehold.co/640x400/1A7A3C/white?text=Apotheek+bezorging"
+                    src="https://placehold.co/640x400/3ab4a0/white?text=Apotheek+bezorging"
                     alt="Greenspeed bezorging in actie"
                     width={640}
                     height={400}
@@ -77,9 +77,9 @@ export default function HomePage() {
                   />
                 </div>
                 {/* YouTube embed placeholder */}
-                <div className="relative rounded-2xl overflow-hidden bg-green-900 aspect-video flex items-center justify-center group cursor-pointer shadow-lg">
+                <div className="relative rounded-2xl overflow-hidden bg-gs-navy aspect-video flex items-center justify-center group cursor-pointer shadow-lg">
                   <Image
-                    src="https://placehold.co/640x360/1A7A3C/white?text=▶+Bekijk+onze+video"
+                    src="https://placehold.co/640x360/3ab4a0/white?text=▶+Bekijk+onze+video"
                     alt="Greenspeed video"
                     width={640}
                     height={360}
@@ -88,7 +88,7 @@ export default function HomePage() {
                   />
                   <div className="absolute inset-0 flex items-center justify-center">
                     <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform">
-                      <svg className="w-6 h-6 text-green-600 ml-1" fill="currentColor" viewBox="0 0 24 24">
+                      <svg className="w-6 h-6 text-gs-teal ml-1" fill="currentColor" viewBox="0 0 24 24">
                         <path d="M8 5v14l11-7z" />
                       </svg>
                     </div>
@@ -108,7 +108,7 @@ export default function HomePage() {
         <div className="container-wide">
           <SectionWrapper>
             <div className="text-center mb-12">
-              <span className="inline-block text-green-600 font-dm font-semibold text-sm uppercase tracking-widest mb-4">
+              <span className="inline-block text-gs-teal font-dm font-semibold text-sm uppercase tracking-widest mb-4">
                 Vergelijking
               </span>
               <h2 className="font-syne font-bold text-3xl sm:text-4xl text-gray-900">
@@ -132,17 +132,17 @@ export default function HomePage() {
       </section>
 
       {/* 4. AIroute Planner preview */}
-      <section className="section bg-green-600">
+      <section className="section bg-gs-teal">
         <div className="container-wide">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <SectionWrapper>
-              <span className="inline-block text-green-200 font-dm font-semibold text-sm uppercase tracking-widest mb-4">
+              <span className="inline-block text-white/70 font-dm font-semibold text-sm uppercase tracking-widest mb-4">
                 Technologie
               </span>
               <h2 className="font-syne font-bold text-3xl sm:text-4xl text-white mb-6">
                 AIroute Planner: slimmer bezorgen
               </h2>
-              <p className="text-green-100 font-dm text-lg leading-relaxed mb-8">
+              <p className="text-white/80 font-dm text-lg leading-relaxed mb-8">
                 Onze AI-gestuurde routeplanner optimaliseert elke dag opnieuw alle bezorgroutes.
                 Automatische koppeling met uw apotheeksysteem, real-time tracking voor patiënten
                 en proactieve notificaties bij vertraging.
@@ -155,7 +155,7 @@ export default function HomePage() {
                   { icon: <ArrowRight className="w-6 h-6" />, label: "AIS-koppeling dag 1" },
                 ].map((item, i) => (
                   <div key={i} className="flex items-center gap-3 text-white">
-                    <span className="text-green-200">{item.icon}</span>
+                    <span className="text-white/70">{item.icon}</span>
                     <span className="font-dm font-medium text-sm">{item.label}</span>
                   </div>
                 ))}
@@ -177,7 +177,7 @@ export default function HomePage() {
                   unoptimized
                 />
                 <div className="absolute -bottom-4 -left-4 bg-white rounded-xl p-4 shadow-xl">
-                  <p className="font-syne font-bold text-green-600 text-2xl">40%</p>
+                  <p className="font-syne font-bold text-gs-teal text-2xl">40%</p>
                   <p className="font-dm text-gray-600 text-xs">minder klantvragen</p>
                 </div>
               </div>
@@ -191,7 +191,7 @@ export default function HomePage() {
         <div className="container-wide">
           <SectionWrapper>
             <div className="text-center mb-12">
-              <span className="inline-block text-green-600 font-dm font-semibold text-sm uppercase tracking-widest mb-4">
+              <span className="inline-block text-gs-teal font-dm font-semibold text-sm uppercase tracking-widest mb-4">
                 Klantcase
               </span>
               <h2 className="font-syne font-bold text-3xl sm:text-4xl text-gray-900">
@@ -221,11 +221,11 @@ export default function HomePage() {
       </section>
 
       {/* 6. Duurzaamheid block */}
-      <section className="section bg-green-50">
+      <section className="section bg-gs-teal-light">
         <div className="container-wide">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <SectionWrapper>
-              <span className="inline-block text-green-600 font-dm font-semibold text-sm uppercase tracking-widest mb-4">
+              <span className="inline-block text-gs-teal font-dm font-semibold text-sm uppercase tracking-widest mb-4">
                 Duurzaamheid
               </span>
               <h2 className="font-syne font-bold text-3xl sm:text-4xl text-gray-900 mb-6">
@@ -247,9 +247,9 @@ export default function HomePage() {
                 {duurzaamheidStats.map((stat, i) => (
                   <div
                     key={i}
-                    className="bg-white rounded-2xl p-6 shadow-md text-center border border-green-100"
+                    className="bg-white rounded-2xl p-6 shadow-md text-center border border-gs-teal-light"
                   >
-                    <p className="font-syne font-bold text-3xl text-green-600 mb-1">
+                    <p className="font-syne font-bold text-3xl text-gs-teal mb-1">
                       {stat.cijfer}
                     </p>
                     <p className="font-dm text-gray-500 text-sm">{stat.label}</p>
@@ -272,17 +272,17 @@ export default function HomePage() {
       </section>
 
       {/* 8. Contact CTA + form */}
-      <section className="section bg-green-900">
+      <section className="section bg-gs-navy">
         <div className="container-wide">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
             <SectionWrapper>
-              <span className="inline-block text-green-300 font-dm font-semibold text-sm uppercase tracking-widest mb-4">
+              <span className="inline-block text-gs-teal font-dm font-semibold text-sm uppercase tracking-widest mb-4">
                 Contact
               </span>
               <h2 className="font-syne font-bold text-3xl sm:text-4xl text-white mb-6">
                 Klaar om over te stappen?
               </h2>
-              <p className="text-green-200 font-dm text-lg leading-relaxed mb-8">
+              <p className="text-white/70 font-dm text-lg leading-relaxed mb-8">
                 Plan een vrijblijvend kennismakingsgesprek. We komen graag bij u langs om uw
                 situatie te bespreken en een passend voorstel te doen.
               </p>
@@ -292,8 +292,8 @@ export default function HomePage() {
                   "Binnen 5 werkdagen een maatwerkvoorstel",
                   "Implementatie in gemiddeld 3 weken",
                 ].map((item, i) => (
-                  <div key={i} className="flex items-center gap-3 text-green-100 font-dm">
-                    <span className="w-5 h-5 rounded-full bg-green-500 text-white flex items-center justify-center text-xs flex-shrink-0">
+                  <div key={i} className="flex items-center gap-3 text-white/80 font-dm">
+                    <span className="w-5 h-5 rounded-full bg-gs-teal-light0 text-white flex items-center justify-center text-xs flex-shrink-0">
                       ✓
                     </span>
                     {item}
@@ -318,7 +318,7 @@ export default function HomePage() {
             <div className="flex flex-col items-center gap-6">
               <div className="w-20 h-20 rounded-full overflow-hidden shadow-lg">
                 <Image
-                  src="https://placehold.co/80x80/1A7A3C/white?text=DS"
+                  src="https://placehold.co/80x80/3ab4a0/white?text=DS"
                   alt="Directeur Greenspeed"
                   width={80}
                   height={80}

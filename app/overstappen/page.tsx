@@ -24,7 +24,7 @@ export default function OverstappenPage() {
         ctaHref="/contact"
         secondaryCtaLabel="Veelgestelde vragen"
         secondaryCtaHref="#faq"
-        imageSrc="https://placehold.co/1600x700/1A7A3C/white?text=Overstappen+naar+Greenspeed"
+        imageSrc="https://placehold.co/1600x700/3ab4a0/white?text=Overstappen+naar+Greenspeed"
         imageAlt="Overstappen naar Greenspeed"
       />
 
@@ -33,7 +33,7 @@ export default function OverstappenPage() {
         <div className="container-wide">
           <SectionWrapper>
             <div className="text-center mb-16">
-              <span className="inline-block text-green-600 font-dm font-semibold text-sm uppercase tracking-widest mb-4">
+              <span className="inline-block text-gs-teal font-dm font-semibold text-sm uppercase tracking-widest mb-4">
                 Het proces
               </span>
               <h2 className="font-syne font-bold text-3xl sm:text-4xl text-gray-900">
@@ -49,7 +49,7 @@ export default function OverstappenPage() {
       </section>
 
       {/* Reassurance block */}
-      <section className="section bg-green-50">
+      <section className="section bg-gs-teal-light">
         <div className="container-narrow">
           <SectionWrapper>
             <div className="text-center mb-10">
@@ -99,7 +99,7 @@ export default function OverstappenPage() {
         <div className="container-narrow">
           <SectionWrapper>
             <div className="text-center mb-12">
-              <span className="inline-block text-green-600 font-dm font-semibold text-sm uppercase tracking-widest mb-4">
+              <span className="inline-block text-gs-teal font-dm font-semibold text-sm uppercase tracking-widest mb-4">
                 FAQ
               </span>
               <h2 className="font-syne font-bold text-3xl sm:text-4xl text-gray-900">
@@ -117,14 +117,14 @@ export default function OverstappenPage() {
       </section>
 
       {/* Contact CTA */}
-      <section className="section bg-green-900">
+      <section className="section bg-gs-navy">
         <div className="container-wide">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
             <SectionWrapper>
               <h2 className="font-syne font-bold text-3xl sm:text-4xl text-white mb-6">
                 Klaar om te beginnen?
               </h2>
-              <p className="text-green-200 font-dm text-lg leading-relaxed mb-8">
+              <p className="text-white/70 font-dm text-lg leading-relaxed mb-8">
                 Neem vandaag nog contact op voor een vrijblijvend kennismakingsgesprek.
                 We komen graag bij u langs.
               </p>
@@ -136,7 +136,7 @@ export default function OverstappenPage() {
                   href="mailto:info@greenspeed.nl"
                   variant="secondary"
                   size="lg"
-                  className="border-white text-white hover:bg-white hover:text-green-600"
+                  className="border-white text-white hover:bg-white hover:text-gs-teal"
                 >
                   info@greenspeed.nl
                 </Button>

@@ -14,10 +14,10 @@ export default function HandboekPage() {
       <div className="container-narrow text-center py-24">
         <SectionWrapper>
           <div className="mb-8">
-            <span className="inline-block w-16 h-16 bg-green-100 rounded-2xl text-3xl flex items-center justify-center mx-auto mb-6">
+            <span className="inline-block w-16 h-16 bg-gs-teal-light rounded-2xl text-3xl flex items-center justify-center mx-auto mb-6">
               📖
             </span>
-            <span className="inline-block text-green-600 font-dm font-semibold text-sm uppercase tracking-widest mb-4">
+            <span className="inline-block text-gs-teal font-dm font-semibold text-sm uppercase tracking-widest mb-4">
               Handboek
             </span>
             <h1 className="font-syne font-bold text-4xl sm:text-5xl text-gray-900 mb-6">

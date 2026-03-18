@@ -45,7 +45,7 @@ export const metadata: Metadata = {
       "CO₂-neutrale medicijnbezorging per fiets met AI-gestuurde routeplanning en real-time tracking.",
     images: [
       {
-        url: "https://placehold.co/1200x630/1A7A3C/white?text=Greenspeed",
+        url: "https://placehold.co/1200x630/3ab4a0/white?text=Greenspeed",
         width: 1200,
         height: 630,
         alt: "Greenspeed – Duurzame medicijnbezorging",

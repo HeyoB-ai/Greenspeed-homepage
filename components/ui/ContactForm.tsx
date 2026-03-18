@@ -33,20 +33,20 @@ export default function ContactForm({ dark = false }: ContactFormProps) {
   };
 
   const labelClass = dark
-    ? "block text-sm font-medium mb-1 text-green-100"
+    ? "block text-sm font-medium mb-1 text-white/80"
     : "block text-sm font-medium mb-1 text-gray-700";
 
-  const inputClass = `w-full rounded-lg border px-4 py-3 text-gray-900 focus:outline-none focus:ring-2 focus:ring-green-500 transition ${
+  const inputClass = `w-full rounded-lg border px-4 py-3 text-gray-900 focus:outline-none focus:ring-2 focus:ring-gs-teal transition ${
     dark
-      ? "border-green-600 bg-white/10 text-white placeholder-green-200 focus:border-green-400"
-      : "border-gray-300 bg-white focus:border-green-500"
+      ? "border-gs-teal bg-white/10 text-white placeholder-white/50 focus:border-gs-teal-light"
+      : "border-gray-300 bg-white focus:border-gs-teal"
   }`;
 
   if (submitted) {
     return (
       <div
         className={`rounded-2xl p-8 text-center ${
-          dark ? "bg-white/10 text-white" : "bg-green-50 text-green-800"
+          dark ? "bg-white/10 text-white" : "bg-gs-teal-light text-gs-navy"
         }`}
       >
         <div className="text-5xl mb-4">✅</div>

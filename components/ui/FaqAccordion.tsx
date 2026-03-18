@@ -31,7 +31,7 @@ export default function FaqAccordion({ items }: FaqAccordionProps) {
               {item.vraag}
             </span>
             <ChevronDown
-              className={`w-5 h-5 text-green-600 flex-shrink-0 transition-transform duration-300 ${
+              className={`w-5 h-5 text-gs-teal flex-shrink-0 transition-transform duration-300 ${
                 openIndex === i ? "rotate-180" : ""
               }`}
             />

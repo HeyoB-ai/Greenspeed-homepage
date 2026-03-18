@@ -12,7 +12,7 @@ export default function ComparisonTable() {
               <th className="bg-red-50 text-red-700 font-syne font-bold text-lg px-6 py-4 text-left w-1/2 border-b border-gray-200">
                 ❌ Zelf regelen
               </th>
-              <th className="bg-green-600 text-white font-syne font-bold text-lg px-6 py-4 text-left w-1/2 border-b border-green-700">
+              <th className="bg-gs-teal text-white font-syne font-bold text-lg px-6 py-4 text-left w-1/2 border-b border-gs-teal-dark">
                 ✅ Met Greenspeed
               </th>
             </tr>
@@ -29,9 +29,9 @@ export default function ComparisonTable() {
                     <span className="text-gray-600 font-dm">{item.zelfdoen}</span>
                   </div>
                 </td>
-                <td className="px-6 py-4 border-b border-gray-100 border-l border-green-100">
+                <td className="px-6 py-4 border-b border-gray-100 border-l border-gs-teal-light">
                   <div className="flex items-start gap-3">
-                    <Check className="w-5 h-5 text-green-600 mt-0.5 flex-shrink-0" />
+                    <Check className="w-5 h-5 text-gs-teal mt-0.5 flex-shrink-0" />
                     <span className="text-gray-800 font-dm font-medium">{item.greenspeed}</span>
                   </div>
                 </td>

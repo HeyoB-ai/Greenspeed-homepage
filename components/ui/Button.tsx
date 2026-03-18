@@ -17,11 +17,11 @@ interface ButtonProps {
 
 const variantClasses: Record<Variant, string> = {
   primary:
-    "bg-green-600 text-white hover:bg-green-700 border-2 border-green-600 hover:border-green-700",
+    "bg-gs-teal text-white hover:bg-gs-teal-dark border-2 border-gs-teal hover:border-gs-teal-dark",
   secondary:
-    "bg-transparent text-green-600 border-2 border-green-600 hover:bg-green-600 hover:text-white",
+    "bg-transparent text-gs-teal border-2 border-gs-teal hover:bg-gs-teal hover:text-white",
   white:
-    "bg-white text-green-600 border-2 border-white hover:bg-green-50",
+    "bg-white text-gs-teal border-2 border-white hover:bg-gs-teal-light",
 };
 
 const sizeClasses: Record<Size, string> = {
@@ -40,7 +40,7 @@ export default function Button({
   className = "",
   disabled = false,
 }: ButtonProps) {
-  const classes = `inline-flex items-center justify-center gap-2 rounded-full font-semibold font-dm transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-green-400 focus:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed ${variantClasses[variant]} ${sizeClasses[size]} ${className}`;
+  const classes = `inline-flex items-center justify-center gap-2 rounded-full font-semibold font-dm transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-gs-teal focus:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed ${variantClasses[variant]} ${sizeClasses[size]} ${className}`;
 
   if (href) {
     return (

@@ -34,22 +34,22 @@ export default function VacatureDetailPage({ params }: PageProps) {
   return (
     <>
       {/* Header */}
-      <div className="bg-green-900 py-16 px-4">
+      <div className="bg-gs-navy py-16 px-4">
         <div className="max-w-4xl mx-auto">
           <SectionWrapper>
             <div className="mb-6">
-              <Button href="/vacatures" variant="secondary" size="sm" className="border-white text-white hover:bg-white hover:text-green-600">
+              <Button href="/vacatures" variant="secondary" size="sm" className="border-white text-white hover:bg-white hover:text-gs-teal">
                 <ArrowLeft className="w-4 h-4" />
                 Terug naar vacatures
               </Button>
             </div>
-            <span className="inline-block bg-green-700 text-green-200 text-sm font-dm px-3 py-1 rounded-full mb-4">
+            <span className="inline-block bg-gs-teal-dark text-white/70 text-sm font-dm px-3 py-1 rounded-full mb-4">
               Vacature
             </span>
             <h1 className="font-syne font-bold text-3xl sm:text-4xl lg:text-5xl text-white mb-6">
               Fietskoerier {vac.stad}
             </h1>
-            <div className="flex flex-wrap gap-4 text-green-200">
+            <div className="flex flex-wrap gap-4 text-white/70">
               <div className="flex items-center gap-2 font-dm text-sm">
                 <MapPin className="w-4 h-4" />
                 {vac.stad}
@@ -97,16 +97,16 @@ export default function VacatureDetailPage({ params }: PageProps) {
                   <ul className="space-y-3">
                     {vac.vereisten.map((vereiste, i) => (
                       <li key={i} className="flex items-start gap-3">
-                        <Check className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                        <Check className="w-5 h-5 text-gs-teal flex-shrink-0 mt-0.5" />
                         <span className="text-gray-600 font-dm">{vereiste}</span>
                       </li>
                     ))}
                     <li className="flex items-start gap-3">
-                      <Check className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                      <Check className="w-5 h-5 text-gs-teal flex-shrink-0 mt-0.5" />
                       <span className="text-gray-600 font-dm">Je werkt nauwkeurig en discreet (medische bezorgingen)</span>
                     </li>
                     <li className="flex items-start gap-3">
-                      <Check className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                      <Check className="w-5 h-5 text-gs-teal flex-shrink-0 mt-0.5" />
                       <span className="text-gray-600 font-dm">Goede beheersing van de Nederlandse taal</span>
                     </li>
                   </ul>
@@ -128,7 +128,7 @@ export default function VacatureDetailPage({ params }: PageProps) {
                       "Kans op doorgroei naar teamleider of planner",
                     ].map((item, i) => (
                       <li key={i} className="flex items-start gap-3">
-                        <Check className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                        <Check className="w-5 h-5 text-gs-teal flex-shrink-0 mt-0.5" />
                         <span className="text-gray-600 font-dm">{item}</span>
                       </li>
                     ))}
@@ -140,7 +140,7 @@ export default function VacatureDetailPage({ params }: PageProps) {
             {/* Sidebar - sticky apply CTA */}
             <div className="lg:col-span-1">
               <SectionWrapper delay={0.2}>
-                <div className="bg-green-50 rounded-2xl p-6 sticky top-24">
+                <div className="bg-gs-teal-light rounded-2xl p-6 sticky top-24">
                   <h3 className="font-syne font-bold text-lg text-gray-900 mb-2">
                     Direct solliciteren
                   </h3>
@@ -149,15 +149,15 @@ export default function VacatureDetailPage({ params }: PageProps) {
                   </p>
                   <div className="space-y-2 text-sm text-gray-600 font-dm mb-6">
                     <div className="flex items-center gap-2">
-                      <MapPin className="w-4 h-4 text-green-600" />
+                      <MapPin className="w-4 h-4 text-gs-teal" />
                       {vac.stad}
                     </div>
                     <div className="flex items-center gap-2">
-                      <Clock className="w-4 h-4 text-green-600" />
+                      <Clock className="w-4 h-4 text-gs-teal" />
                       {vac.uren}
                     </div>
                     <div className="flex items-center gap-2">
-                      <Euro className="w-4 h-4 text-green-600" />
+                      <Euro className="w-4 h-4 text-gs-teal" />
                       {vac.salaris}
                     </div>
                   </div>
@@ -172,14 +172,14 @@ export default function VacatureDetailPage({ params }: PageProps) {
       </section>
 
       {/* Application form */}
-      <section id="solliciteer" className="section bg-green-900 scroll-mt-20">
+      <section id="solliciteer" className="section bg-gs-navy scroll-mt-20">
         <div className="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionWrapper>
             <div className="text-center mb-8">
               <h2 className="font-syne font-bold text-3xl text-white mb-4">
                 Solliciteer voor {vac.stad}
               </h2>
-              <p className="text-green-200 font-dm">
+              <p className="text-white/70 font-dm">
                 Vul het formulier in en we nemen snel contact met u op.
               </p>
             </div>

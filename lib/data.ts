@@ -18,8 +18,8 @@ export const klantcases = [
       "Greenspeed heeft onze bezorging volledig overgenomen. We besparen nu 30% op kosten en onze patiënten zijn veel tevredener.",
     naam_contact: "Drs. M. van der Berg",
     functie: "Apotheker-eigenaar",
-    foto: "https://placehold.co/80x80/1A7A3C/white?text=MB",
-    afbeelding: "https://placehold.co/800x500/1A7A3C/white?text=Apotheek+Van+der+Berg",
+    foto: "https://placehold.co/80x80/3ab4a0/white?text=MB",
+    afbeelding: "https://placehold.co/800x500/3ab4a0/white?text=Apotheek+Van+der+Berg",
     resultaten: [
       "30% kostenreductie",
       "98% op-tijd bezorging",
@@ -41,8 +41,8 @@ export const klantcases = [
       "De AIroute Planner is een game-changer. We hebben 40% minder telefoontjes van patiënten die vragen waar hun medicijnen zijn.",
     naam_contact: "Ing. P. Janssen",
     functie: "Filiaalmanager",
-    foto: "https://placehold.co/80x80/1A7A3C/white?text=PJ",
-    afbeelding: "https://placehold.co/800x500/1A7A3C/white?text=Boots+Apotheek+Rotterdam",
+    foto: "https://placehold.co/80x80/3ab4a0/white?text=PJ",
+    afbeelding: "https://placehold.co/800x500/3ab4a0/white?text=Boots+Apotheek+Rotterdam",
     resultaten: [
       "40% minder klantvragen",
       "Real-time tracking voor patiënten",
@@ -64,8 +64,8 @@ export const klantcases = [
       "Onze patiënten kennen de koeriers nu bij naam. Dat vertrouwen is onbetaalbaar voor een zorginstelling.",
     naam_contact: "Dr. S. Peeters",
     functie: "Directeur Zorg",
-    foto: "https://placehold.co/80x80/1A7A3C/white?text=SP",
-    afbeelding: "https://placehold.co/800x500/1A7A3C/white?text=Gezondheidscentrum+Eindhoven",
+    foto: "https://placehold.co/80x80/3ab4a0/white?text=SP",
+    afbeelding: "https://placehold.co/800x500/3ab4a0/white?text=Gezondheidscentrum+Eindhoven",
     resultaten: [
       "Vaste koeriers per wijk",
       "100% betrouwbare levering",

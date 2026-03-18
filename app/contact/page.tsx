@@ -74,7 +74,7 @@ export default function ContactPage() {
                   <div className="space-y-4">
                     {contactInfo.map((item, i) => (
                       <div key={i} className="flex items-start gap-4">
-                        <div className="w-10 h-10 rounded-xl bg-green-100 text-green-600 flex items-center justify-center flex-shrink-0">
+                        <div className="w-10 h-10 rounded-xl bg-gs-teal-light text-gs-teal flex items-center justify-center flex-shrink-0">
                           {item.icon}
                         </div>
                         <div>
@@ -84,7 +84,7 @@ export default function ContactPage() {
                           {item.href ? (
                             <a
                               href={item.href}
-                              className="font-dm font-medium text-gray-800 hover:text-green-600 transition-colors"
+                              className="font-dm font-medium text-gray-800 hover:text-gs-teal transition-colors"
                               target={item.href.startsWith("http") ? "_blank" : undefined}
                               rel={item.href.startsWith("http") ? "noopener noreferrer" : undefined}
                             >
@@ -106,7 +106,7 @@ export default function ContactPage() {
                   </h3>
                   <div className="rounded-2xl overflow-hidden bg-gray-100 border border-gray-200">
                     {/* Google Maps embed placeholder */}
-                    <div className="w-full h-64 bg-green-100 flex items-center justify-center relative">
+                    <div className="w-full h-64 bg-gs-teal-light flex items-center justify-center relative">
                       <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9743.82!2d4.8945!3d52.3676!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c609b0d338e30d%3A0x1f0e4d00e4f5e8b3!2sAmsterdam!5e0!3m2!1snl!2snl!4v1620000000000!5m2!1snl!2snl"
                         width="100%"
@@ -123,11 +123,11 @@ export default function ContactPage() {
                 </div>
 
                 {/* Response time promise */}
-                <div className="bg-green-50 rounded-2xl p-6 border border-green-100">
-                  <h3 className="font-syne font-bold text-green-800 mb-2">
+                <div className="bg-gs-teal-light rounded-2xl p-6 border border-gs-teal-light">
+                  <h3 className="font-syne font-bold text-gs-navy mb-2">
                     Onze belofte aan u
                   </h3>
-                  <p className="text-green-700 font-dm text-sm leading-relaxed">
+                  <p className="text-gs-teal font-dm text-sm leading-relaxed">
                     We reageren altijd binnen 1 werkdag op uw bericht. Bij urgente vragen
                     kunt u ons direct bellen op{" "}
                     <a href="tel:+31201234567" className="font-semibold underline">

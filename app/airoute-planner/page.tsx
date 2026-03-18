@@ -31,7 +31,7 @@ export default function AiroutePlannerPage() {
         ctaHref="/contact"
         secondaryCtaLabel="Bekijk alle functies"
         secondaryCtaHref="#functies"
-        imageSrc="https://placehold.co/1600x700/1A7A3C/white?text=AIroute+Planner"
+        imageSrc="https://placehold.co/1600x700/3ab4a0/white?text=AIroute+Planner"
         imageAlt="AIroute Planner dashboard"
       />
 
@@ -40,7 +40,7 @@ export default function AiroutePlannerPage() {
         <div className="container-wide">
           <SectionWrapper>
             <div className="text-center mb-12">
-              <span className="inline-block text-green-600 font-dm font-semibold text-sm uppercase tracking-widest mb-4">
+              <span className="inline-block text-gs-teal font-dm font-semibold text-sm uppercase tracking-widest mb-4">
                 Functionaliteiten
               </span>
               <h2 className="font-syne font-bold text-3xl sm:text-4xl text-gray-900">
@@ -61,7 +61,7 @@ export default function AiroutePlannerPage() {
         <div className="container-wide">
           <SectionWrapper>
             <div className="text-center mb-4">
-              <span className="inline-block text-green-600 font-dm font-semibold text-sm uppercase tracking-widest mb-2">
+              <span className="inline-block text-gs-teal font-dm font-semibold text-sm uppercase tracking-widest mb-2">
                 Integraties
               </span>
               <h2 className="font-syne font-bold text-2xl sm:text-3xl text-gray-900 mb-4">
@@ -78,14 +78,14 @@ export default function AiroutePlannerPage() {
       </section>
 
       {/* Statistics block */}
-      <section className="section bg-green-600">
+      <section className="section bg-gs-teal">
         <div className="container-wide">
           <SectionWrapper>
             <div className="text-center mb-12">
               <h2 className="font-syne font-bold text-3xl sm:text-4xl text-white mb-4">
                 Bewezen resultaten
               </h2>
-              <p className="text-green-100 font-dm text-lg">
+              <p className="text-white/80 font-dm text-lg">
                 Onze klanten ervaren direct meetbare verbeteringen na implementatie.
               </p>
             </div>
@@ -95,7 +95,7 @@ export default function AiroutePlannerPage() {
               <SectionWrapper key={i} delay={i * 0.1}>
                 <div className="bg-white/15 rounded-2xl p-6 text-center">
                   <p className="font-syne font-bold text-4xl text-white mb-2">{stat.cijfer}</p>
-                  <p className="font-dm text-green-100 text-sm">{stat.label}</p>
+                  <p className="font-dm text-white/80 text-sm">{stat.label}</p>
                 </div>
               </SectionWrapper>
             ))}
@@ -104,7 +104,7 @@ export default function AiroutePlannerPage() {
           {/* 40% telefoontjes stat - highlighted */}
           <SectionWrapper delay={0.4}>
             <div className="mt-12 bg-white rounded-3xl p-8 md:p-12 text-center shadow-xl">
-              <p className="font-syne font-bold text-5xl sm:text-6xl text-green-600 mb-4">40%</p>
+              <p className="font-syne font-bold text-5xl sm:text-6xl text-gs-teal mb-4">40%</p>
               <h3 className="font-syne font-bold text-2xl text-gray-900 mb-4">
                 Minder telefoontjes van patiënten
               </h3>
@@ -124,7 +124,7 @@ export default function AiroutePlannerPage() {
         <div className="container-narrow">
           <SectionWrapper>
             <div className="text-center mb-12">
-              <span className="inline-block text-green-600 font-dm font-semibold text-sm uppercase tracking-widest mb-4">
+              <span className="inline-block text-gs-teal font-dm font-semibold text-sm uppercase tracking-widest mb-4">
                 FAQ
               </span>
               <h2 className="font-syne font-bold text-3xl sm:text-4xl text-gray-900">
@@ -139,7 +139,7 @@ export default function AiroutePlannerPage() {
       </section>
 
       {/* CTA */}
-      <section className="section bg-green-50">
+      <section className="section bg-gs-teal-light">
         <div className="container-narrow text-center">
           <SectionWrapper>
             <h2 className="font-syne font-bold text-3xl sm:text-4xl text-gray-900 mb-6">

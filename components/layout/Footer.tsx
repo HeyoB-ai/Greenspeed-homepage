@@ -5,33 +5,15 @@ export default function Footer() {
   const year = new Date().getFullYear();
 
   return (
-    <footer className="bg-green-900 text-white">
+    <footer className="bg-gs-navy text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
           {/* Brand */}
           <div className="lg:col-span-1">
-            <div className="flex items-center gap-2 mb-4">
-              <div className="w-9 h-9 bg-white rounded-lg flex items-center justify-center">
-                <svg
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  className="w-5 h-5 text-green-700"
-                  stroke="currentColor"
-                  strokeWidth={2.5}
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"
-                  />
-                  <circle cx="12" cy="9" r="2.5" />
-                </svg>
-              </div>
-              <span className="font-syne font-bold text-xl text-white">
-                Greenspeed
-              </span>
+            <div className="mb-4">
+              <img src="/images/logo.svg" alt="Greenspeed" className="h-8 w-auto brightness-0 invert" />
             </div>
-            <p className="text-green-200 font-dm text-sm leading-relaxed mb-6">
+            <p className="text-white/70 font-dm text-sm leading-relaxed mb-6">
               Duurzame medicijnbezorging voor apotheken. CO₂-neutraal, betrouwbaar en persoonlijk.
             </p>
             {/* Socials */}
@@ -40,7 +22,7 @@ export default function Footer() {
                 href="https://linkedin.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-9 h-9 rounded-lg bg-green-700 hover:bg-green-600 flex items-center justify-center transition-colors"
+                className="w-9 h-9 rounded-lg bg-gs-navy-light hover:bg-gs-teal flex items-center justify-center transition-colors"
                 aria-label="LinkedIn"
               >
                 <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
@@ -51,7 +33,7 @@ export default function Footer() {
                 href="https://instagram.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-9 h-9 rounded-lg bg-green-700 hover:bg-green-600 flex items-center justify-center transition-colors"
+                className="w-9 h-9 rounded-lg bg-gs-navy-light hover:bg-gs-teal flex items-center justify-center transition-colors"
                 aria-label="Instagram"
               >
                 <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
@@ -63,7 +45,7 @@ export default function Footer() {
 
           {/* Navigation */}
           <div>
-            <h4 className="font-syne font-bold text-sm uppercase tracking-widest text-green-300 mb-4">
+            <h4 className="font-syne font-bold text-sm uppercase tracking-widest text-gs-teal mb-4">
               Navigatie
             </h4>
             <ul className="space-y-2">
@@ -71,7 +53,7 @@ export default function Footer() {
                 <li key={item.href}>
                   <Link
                     href={item.href}
-                    className="text-green-200 hover:text-white font-dm text-sm transition-colors"
+                    className="text-white/70 hover:text-white font-dm text-sm transition-colors"
                   >
                     {item.label}
                   </Link>
@@ -82,27 +64,27 @@ export default function Footer() {
 
           {/* Services */}
           <div>
-            <h4 className="font-syne font-bold text-sm uppercase tracking-widest text-green-300 mb-4">
+            <h4 className="font-syne font-bold text-sm uppercase tracking-widest text-gs-teal mb-4">
               Diensten
             </h4>
             <ul className="space-y-2">
               <li>
-                <Link href="/airoute-planner" className="text-green-200 hover:text-white font-dm text-sm transition-colors">
+                <Link href="/airoute-planner" className="text-white/70 hover:text-white font-dm text-sm transition-colors">
                   AIroute Planner
                 </Link>
               </li>
               <li>
-                <Link href="/overstappen" className="text-green-200 hover:text-white font-dm text-sm transition-colors">
+                <Link href="/overstappen" className="text-white/70 hover:text-white font-dm text-sm transition-colors">
                   Overstappen
                 </Link>
               </li>
               <li>
-                <Link href="/klantcases" className="text-green-200 hover:text-white font-dm text-sm transition-colors">
+                <Link href="/klantcases" className="text-white/70 hover:text-white font-dm text-sm transition-colors">
                   Klantcases
                 </Link>
               </li>
               <li>
-                <Link href="/handboek" className="text-green-200 hover:text-white font-dm text-sm transition-colors">
+                <Link href="/handboek" className="text-white/70 hover:text-white font-dm text-sm transition-colors">
                   Handboek
                 </Link>
               </li>
@@ -111,19 +93,19 @@ export default function Footer() {
 
           {/* Contact */}
           <div>
-            <h4 className="font-syne font-bold text-sm uppercase tracking-widest text-green-300 mb-4">
+            <h4 className="font-syne font-bold text-sm uppercase tracking-widest text-gs-teal mb-4">
               Contact
             </h4>
             <address className="not-italic space-y-2">
-              <p className="text-green-200 font-dm text-sm">
+              <p className="text-white/70 font-dm text-sm">
                 Greenspeed B.V.
               </p>
-              <p className="text-green-200 font-dm text-sm">
+              <p className="text-white/70 font-dm text-sm">
                 Keizersgracht 123
                 <br />
                 1015 CJ Amsterdam
               </p>
-              <p className="text-green-200 font-dm text-sm">
+              <p className="text-white/70 font-dm text-sm">
                 <a
                   href="tel:+31201234567"
                   className="hover:text-white transition-colors"
@@ -131,7 +113,7 @@ export default function Footer() {
                   020 – 123 45 67
                 </a>
               </p>
-              <p className="text-green-200 font-dm text-sm">
+              <p className="text-white/70 font-dm text-sm">
                 <a
                   href="mailto:info@greenspeed.nl"
                   className="hover:text-white transition-colors"
@@ -144,20 +126,20 @@ export default function Footer() {
         </div>
 
         {/* Bottom bar */}
-        <div className="mt-12 pt-8 border-t border-green-800 flex flex-col sm:flex-row items-center justify-between gap-4">
-          <p className="text-green-400 font-dm text-sm">
+        <div className="mt-12 pt-8 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-4">
+          <p className="text-white/40 font-dm text-sm">
             © {year} Greenspeed B.V. Alle rechten voorbehouden.
           </p>
           <div className="flex gap-6">
             <Link
               href="/privacy"
-              className="text-green-400 hover:text-white font-dm text-sm transition-colors"
+              className="text-white/40 hover:text-white font-dm text-sm transition-colors"
             >
               Privacybeleid
             </Link>
             <Link
               href="/algemene-voorwaarden"
-              className="text-green-400 hover:text-white font-dm text-sm transition-colors"
+              className="text-white/40 hover:text-white font-dm text-sm transition-colors"
             >
               Algemene voorwaarden
             </Link>
