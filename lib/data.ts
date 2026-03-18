@@ -6,6 +6,7 @@ export const navItems = [
   { label: "Klantcases", href: "/klantcases" },
   { label: "Vacatures", href: "/vacatures" },
   { label: "Contact", href: "/contact" },
+  { label: "Handboek", href: "/handboek" },
 ];
 
 // Klantcases
